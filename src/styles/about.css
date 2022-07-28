@@ -1,0 +1,38 @@
+.aboutContainer {
+  margin: 10% 15%;
+}
+.aboutTitle {
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: #1b1b1b;
+
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+.aboutInfo {
+  display: flex;
+  gap: 5%;
+}
+.aboutText {
+  margin-top: 4%;
+  width: 60%;
+  text-align: justify;
+}
+.aboutText h5 {
+  font-size: 2vw;
+  font-weight: 600;
+  border-bottom: 1px solid #1b1b1b;
+}
+.aboutText p {
+  font-size: 1.5vw;
+}
+.aboutImage {
+  margin-top: 25%;
+  width: 40%;
+  height: 40%;
+}

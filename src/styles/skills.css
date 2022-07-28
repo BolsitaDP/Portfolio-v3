@@ -1,0 +1,59 @@
+.skillsContainer {
+  margin: 0 15%;
+  color: #1b1b1b;
+}
+.skillsTitle {
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: #1b1b1b;
+
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+.skillsInfo {
+  margin-top: 4%;
+  text-align: justify;
+  font-size: 1.5vw;
+}
+.skillsText {
+  margin-bottom: 3%;
+}
+.skillsCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardTitle {
+  font-size: 2vw;
+  font-weight: 600;
+  border-bottom: 1px solid #1b1b1b;
+  margin-bottom: 6%;
+  text-align: center;
+}
+.list {
+  list-style: none;
+}
+.firstLi {
+  display: flex;
+  flex-direction: column;
+}
+.cardBasic span {
+  position: relative;
+  left: 8%;
+}
+.cardJs li {
+  position: relative;
+  left: 8%;
+}
+.cardBasic {
+  padding-right: 5%;
+  border-right: 1px solid #1b1b1b;
+}
+.cardJs {
+  padding-right: 5%;
+  border-right: 1px solid #1b1b1b;
+}

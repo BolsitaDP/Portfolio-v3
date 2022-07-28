@@ -1,0 +1,27 @@
+.footerContainer {
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+  color: #f2f2f2;
+}
+.footerContainer h2 {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+}
+.footerContainer hr {
+  border: 1px solid#f2f2f2;
+  width: 80%;
+}
+.footerContainer p {
+  margin-top: 1%;
+  font-size: 1vw;
+}
+.footerContainer a {
+  color: #f2f2f2;
+  font-size: 1vw;
+  text-decoration: underline;
+}
